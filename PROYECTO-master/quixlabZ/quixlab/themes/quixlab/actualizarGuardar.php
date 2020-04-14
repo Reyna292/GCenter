@@ -1,6 +1,6 @@
 <?php  
 	
-	 $link = new mysqli("localhost","root","","revolution");
+	 $link = new mysqli("localhost","admin","93ab9f73989e766a77c306ba3e6f7cb8d95309f36378ceed","revolution");
 	 $salida = "";
 	// $sql = "SELECT id,nombre,apellidos,fecha_nacimiento,genero,telefono,correo,namer_tag FROM gamers";
 

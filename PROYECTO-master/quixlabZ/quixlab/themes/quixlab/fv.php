@@ -1,5 +1,5 @@
  <?php 
- 	 $link = new mysqli("localhost","root","","revolution");
+ 	 $link = new mysqli("localhost","admin","93ab9f73989e766a77c306ba3e6f7cb8d95309f36378ceed","revolution");
 	 $salida = "";
      if(isset($_POST['id'])){
          $var = $link->real_escape_string($_POST['id']);     

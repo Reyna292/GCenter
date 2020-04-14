@@ -1,6 +1,6 @@
 <?php  
 	
-	 $link = new mysqli("localhost","root","","revolution");
+	 $link = new mysqli("localhost","admin","93ab9f73989e766a77c306ba3e6f7cb8d95309f36378ceed","revolution");
 	 $salida = "";
 	 $sql = "select c.id as id,c.id_plataforma,c.serial, p.nombre from consolas c inner join plataformas p on c.id_plataforma=p.id";
 
