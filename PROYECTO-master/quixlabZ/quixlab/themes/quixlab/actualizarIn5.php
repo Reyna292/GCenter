@@ -5,7 +5,7 @@
      
     if(isset($_POST['consulta'])){
         $q = $link->real_escape_string($_POST['consulta']);
-        $sql = "select id,fecha,hora,horas,id_consola,id_juego,id_jugador,total,descripcion from rentas WHERE id = ".$q.";";
+        $sql = "SELECT id,fecha,hora,horas,id_consola,id_juego,id_jugador,total,descripcion FROM rentas WHERE id = ".$q.";";
         
     }
 
