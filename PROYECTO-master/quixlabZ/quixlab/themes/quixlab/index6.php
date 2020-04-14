@@ -1,5 +1,4 @@
-    
-
+                                            
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +9,11 @@
     <title>Revoluxion</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
     <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -27,10 +31,6 @@
             </svg>
         </div>
     </div>
-    <!--*******************
-        Preloader end
-    ********************-->
-
     
     <!--**********************************
         Main wrapper start
@@ -51,14 +51,8 @@
                 </a>
             </div>
         </div>
-        <!--**********************************
-            Nav header end
-        ***********************************-->
-
-        <!--**********************************
-            Header start
-        ***********************************-->
-         <div class="header">    
+        
+ <div class="header">    
             <div class="header-content clearfix">
                 
                 <div class="nav-control">
@@ -129,7 +123,7 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-    <div class="nk-sidebar">           
+        <div class="nk-sidebar">           
             <div class="nk-nav-scroll">
                 <ul class="metismenu" id="menu">
                     <li class="nav-label">Inicio</li>
@@ -154,14 +148,6 @@
                         </a>
                         <ul aria-expanded="false">
                                                       <li><a href="./index3.php">Listado de Jugadores</a></li>
-                        </ul>
-                    </li>
-                     <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-menu menu-icon"></i> <span class="nav-text">Listado de Rentas</span>
-                        </a>
-                        <ul aria-expanded="false">
-                                                      <li><a href="./index4.php">Listado de Rentas</a></li>
                         </ul>
                     </li>
                        <li>
@@ -197,22 +183,11 @@
                     </li>
                     <li>
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Plataforma</span>
-                        </a>
-                        <ul aria-expanded="false">
-                           
-                            <li><a href="./form-validation2.php">Registro de Plataforma</a></li>
-                            
-                        </ul>
-                    </li>
-
-                       <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
                             <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Consola</span>
                         </a>
                         <ul aria-expanded="false">
                            
-                            <li><a href="./form_validation5.php">Registro de Consola</a></li>
+                            <li><a href="./form-validation2.php">Registro de Consola</a></li>
                             
                         </ul>
                     </li>
@@ -227,17 +202,7 @@
                         </ul>
                     </li>
 
-     <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Compra en Dulceria</span>
-                        </a>
-                        <ul aria-expanded="false">
-                           
-                            <li><a href="./form-validationDulce.php">Registro de Compra</a></li>
-                            
-                        </ul>
-                    </li>
-                      <li>
+                     <li>
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
                             <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Torneo</span>
                         </a>
@@ -247,117 +212,92 @@
                             
                         </ul>
                     </li>
-
-
-                   
-
+  <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Torneo</span>
+                        </a>
+                        <ul aria-expanded="false">
+                           
+                            <li><a href="./form-validation6.php">Registro de Torneo</a></li>
+                            
+                        </ul>
+                    </li>
             </div>
         </div>
+
+
 
         <!--**********************************
             Sidebar end
         ***********************************-->
 
-        <!--**********************************
-            Content body start
-        ***********************************-->
+       
         <div class="content-body">
 
-            <div class="row page-titles mx-0">
-                <div class="col p-md-0">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
-                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
-                    </ol>
+            <div class="container-fluid mt-3"> 
+                <div class="row"> <!--
+                     -->
+                      <!--**********************************
+                        
+                     ***********************************-->
+                <div class="header-left">
+                    <div class="input-group icons">
+                        <div class="input-group-prepend">
+                           <span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></span>
+                        </div>
+                        <input type="search" id="busqueda" class="form-control" placeholder="nombre" aria-label="Search Dashboard">
+                        <div class="drop-down   d-md-none">
+                            <form action="#">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </form>
+                        </div>
+                       <!-- 
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-primary">Buscar</button> -->
+                    </div>
                 </div>
-            </div>
-            <!-- row -->
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card gradient-4">
+                            
+                        </div>
+                    </div>
 
-            <div class="container-fluid">
-                <div class="row justify-content-center">
+
+
+
+                <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="form-validation">
-                                    <form class="form-valide" action="insertar.php" method="POST" enctype="multipart/form-data">
-                                        <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-username">Nombres<span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-username" name="val-username" placeholder="">
-                                            </div>
+                                <div class="active-member">
+                                    <div class="table-responsive">
+                                        <div id="llenar">
+                                            
                                         </div>
-                                               <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-username">Apellidos<span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-apellidos" name="val-apellidos" placeholder="">
-                                            </div>
-                                        </div>
-                                    
-                                            <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-username">Fecha de Nacimiento<span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-fecha" name="val-fecha" placeholder="aaaa/mm/dd.">
-                                            </div>
-                                        </div>
-
-                               
-                                    <div class="form-group row">                                    
-                                         
-                                    <div class="form-check form-check-inline">  
-                                         <label class="form-check-label" for="mujer">Femenino</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                         <input class="form-check-input" type="radio" id="mujer" name="gender" value="mujer">
                                     </div>
-                                          
-                                    <div class="form-check form-check-inline">                                    
-                                        <label class="form-check-label" for="mujer">Masculino</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input class="form-check-input" type="radio" id="hombre" name="gender" value="hombre" checked=""> 
-                                     </div>
-                                     <br>
-                                    </div>
-                                                                                                                         
-                                        <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-phoneus">Teléfono (MX) <span class="text-danger">*</span>
-                                            </label>
-                                               
-                                            <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-phoneus" name="val-phoneus" placeholder="Ej. 8341459021">
-                                            </div>
-                                        </div>
-                                       
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
 
-                                                <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="val-username">Correo Electrónico<span class="text-danger">*</span>
-                                            </label>
-                                            <div class="col-lg-6">
-                                                <input type="text" class="form-control" id="val-email" name="val-email" placeholder="ejemplo@gmail.com">
-                                            </div>
-                                        </div>
-
-
-                                             
-                                    
-                                        <div class="form-group row">
-                                        <input type="file" name="image" id="image">
-                                        </div>
-                                       
-                                    
-                                    
+                <div class="container">
+                    <div class="modal" tabindex="-1" id="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3>Actualizar datos</h3>
+                                    <button type='button' class='close btn btn-primary btn-sm' data-dismiss='modal'>x</button>
+                                </div>
+                                <div id="datosA">
                                         
-                                        <div class="form-group row">
-                                            <div class="col-lg-8 ml-auto">
-                                                <button type="submit" class="btn btn-primary">Registrar</button>
-                                            </div>
-                                        </div>
-                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
             <!-- #/ container -->
         </div>
         <!--**********************************
@@ -370,7 +310,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+                <p>Copyright &copy; Designed & Developed  <a href="https://themeforest.net/user/quixlab">Versión</a> 2020</p>
             </div>
         </div>
         <!--**********************************
@@ -390,8 +330,28 @@
     <script src="js/gleek.js"></script>
     <script src="js/styleSwitcher.js"></script>
 
-    <script src="./plugins/validation/jquery.validate.min.js"></script>
-    <script src="./plugins/validation/jquery.validate-init.js"></script>
+    <!-- Chartjs -->
+    <script src="./plugins/chart.js/Chart.bundle.min.js"></script>
+    <!-- Circle progress -->
+    <script src="./plugins/circle-progress/circle-progress.min.js"></script>
+    <!-- Datamap -->
+    <script src="./plugins/d3v3/index.js"></script>
+    <script src="./plugins/topojson/topojson.min.js"></script>
+    <script src="./plugins/datamaps/datamaps.world.min.js"></script>
+    <!-- Morrisjs -->
+    <script src="./plugins/raphael/raphael.min.js"></script>
+    <script src="./plugins/morris/morris.min.js"></script>
+    <!-- Pignose Calender -->
+    <script src="./plugins/moment/moment.min.js"></script>
+    <script src="./plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <!-- ChartistJS -->
+    <script src="./plugins/chartist/js/chartist.min.js"></script>
+    <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+    <script src="./js/dashboard/dashboard-1.js"></script>
+     <script src="js/codigoIndex6.js"></script>
 
 </body>
 

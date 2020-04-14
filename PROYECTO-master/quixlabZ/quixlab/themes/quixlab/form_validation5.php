@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Quixlab - Bootstrap Admin Dashboard Template by Themefisher.com</title>
+    <title>Revoluxion</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <!-- Custom Stylesheet -->
@@ -164,6 +164,15 @@
                         <ul aria-expanded="false">
                                                       <li><a href="./index4.php">Listado de Rentas</a></li>
                         </ul>
+
+                    </li>
+                       <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-menu menu-icon"></i> <span class="nav-text">Listado de Torneos</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index6.php">Listado de Torneos</a></li>
+                        </ul>
                     </li>
                     <li class="nav-label">Enviar Correo a Gamers</li>
                     <li>
@@ -230,7 +239,16 @@
                             
                         </ul>
                     </li>
-
+                      <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Torneo</span>
+                        </a>
+                        <ul aria-expanded="false">
+                           
+                            <li><a href="./form-validation6.php">Registro de Torneo</a></li>
+                            
+                        </ul>
+                    </li>
 
 
                    

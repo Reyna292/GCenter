@@ -158,6 +158,14 @@
                                                       <li><a href="./index4.php">Listado de Rentas</a></li>
                         </ul>
                     </li>
+                       <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-menu menu-icon"></i> <span class="nav-text">Listado de Torneos</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index6.php">Listado de Torneos</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-label">Enviar Correo a Gamers</li>
                     <li>
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
@@ -225,7 +233,16 @@
                     </li>
 
 
-
+  <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Registrar Torneo</span>
+                        </a>
+                        <ul aria-expanded="false">
+                           
+                            <li><a href="./form-validation6.php">Registro de Torneo</a></li>
+                            
+                        </ul>
+                    </li>
                    
 
             </div>
